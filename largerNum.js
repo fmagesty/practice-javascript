@@ -9,5 +9,4 @@ function largerNum(x, y) {
     }
 }
 
-console.log('testeñ')
 largerNum(11,10)
