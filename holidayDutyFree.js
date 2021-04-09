@@ -21,5 +21,5 @@ function dutyFree(normPrice, discount, hol){
     return Math.floor(hol / withDiscount);
 }
 
-dutyFree(17, 10, 500)// 294
 // dutyFree(24, 35, 3000)// 357
+dutyFree(17, 10, 500)// 294
