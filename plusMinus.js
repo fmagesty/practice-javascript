@@ -11,7 +11,7 @@ function plusMinus(arr) {
         else if (arr[i] < 0) {
             negatives.push(arr[i])
         }
-        else if (arr[i]=== 0) {
+        else if (arr[i] === 0) {
             zeroes.push(arr[i])
         }
     }
