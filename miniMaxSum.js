@@ -21,6 +21,6 @@ function miniMaxSum(arr) {
   console.log(totalNoMax, totalNoMin);
 }
 
-miniMaxSum([1, 3, 5, 7, 9]);
-miniMaxSum([5, 5, 5, 5, 5]);
+// miniMaxSum([1, 3, 5, 7, 9]);
+// miniMaxSum([5, 5, 5, 5, 5]);
 miniMaxSum([793810624, 895642170, 685903712, 623789054, 468592370]);
