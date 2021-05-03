@@ -12,10 +12,6 @@ function kangaroo(x1, v1, x2, v2) {
     console.log("no");
     return "NO";
   }
-
-  // let k1 = x1 + v1;
-  // let k2 = x2 + v2;
-  // console.log(k1, k2);
 }
 
 kangaroo(0, 3, 4, 2); // yes
