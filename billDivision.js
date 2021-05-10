@@ -1,7 +1,7 @@
 // https://www.hackerrank.com/challenges/bon-appetit/problem?h_r=next-challenge&h_v=zen
 
 function bonAppetit(bill, k, b) {
-  removeK = bill.splice(bill.indexOf(bill[k]), 1);
+  bill.splice(bill.indexOf(bill[k]), 1);
   const reducer = (accumulator, currentValue) => accumulator + currentValue;
   bill = bill.reduce(reducer) / 2;
   if (bill == b) {
