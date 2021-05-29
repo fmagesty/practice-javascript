@@ -1,1 +1,1 @@
-### Random Javascript code for practicing and problem solving in general :)
+### Random JavaScript code for practicing and problem solving in general :)
