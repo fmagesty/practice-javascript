@@ -22,7 +22,6 @@ function decipherThis(str) {
       str[i] = str[i].split("");
       str[i][1] = secondLetter;
       str[i] = str[i].join("");
-      console.log(str[i]);
       str[i] = str[i].slice(0, -1);
       str[i] = str[i].concat(lastLetter);
     }
